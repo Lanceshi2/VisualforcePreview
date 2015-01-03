@@ -1,12 +1,12 @@
 # VisualforcePreview
 
-Visualforce Preview is a simple plugin to enable previewing Visualforce page in Sublime text. 
+Visualforce Preview is a simple plugin to enable previewing Visualforce page for Salesforce in Sublime text. 
 
 To use this plugin, first you need to setup your Salesforce domain by Preference > Package Settings > VisualforcePreview > Settings - User
 
 Copy the template from Preferences > Package Settings > VisualforcePreview > Settings - Default, and change the domain into your own Salesforce domain. Then you are ready to go. 
 
-To preview a VF page, simply click ctrl + alt + v in your VF page file (you need to save it first). Alternatively, you can click Tools >  VisualforcePreview > Visualforce Preview
+To preview a VF page, simply click ctrl + alt + v (on OSX is <kbd>⌘+ shift + v</kbd>) in your VF page file (you need to save it first). Alternatively, you can click Tools >  VisualforcePreview > Visualforce Preview
 
 ## How to install ##
 
