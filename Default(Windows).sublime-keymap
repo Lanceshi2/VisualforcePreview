@@ -1,0 +1,3 @@
+[
+	{ "keys": ["ctrl+alt+v"], "command": "visualforce_preview" }
+]

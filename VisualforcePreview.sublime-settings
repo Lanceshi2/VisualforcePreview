@@ -1,0 +1,5 @@
+{
+	//Domain of your Salesforce project
+	//E.g. if your url of Salesforce website is https://ap1.saleforce.com, then put "ap1" in the Domain value
+	"Domain":  "ap1"
+}

@@ -1,0 +1,62 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+            	"caption": "VisualforcePreview",
+            	"children" :
+            	[
+		            { 
+		            	"caption": "Visualforce Preview", 
+		                "command": "visualforce_preview" 
+		            },
+		            {
+			            "caption": "Read Me",
+			            "command": "open_file",
+			            "args": {
+			                "file": "${packages}/VisualforcePreview/README.md"
+			            }
+		            },
+		            { "caption": "-" }
+		        ]
+            },
+            { "caption": "-" }
+        ]
+
+    },
+    {
+	    "id": "preferences",
+	    "mnemonic": "n",
+	    "children": 
+	    [
+		    {
+		        "caption": "Package Settings",
+		        "mnemonic": "p",
+		        "id": "package-settings",
+		        "children": [
+			        {
+			            "caption": "VisualforcePreview",
+			            "children": [
+				            {
+				                "caption": "Settings - Default",
+				                "command": "open_file",
+				                "args": {
+				                    "file": "${packages}/VisualforcePreview/VisualforcePreview.sublime-settings"
+				                }
+				            },
+				            {
+				                "caption": "Settings - User",
+				                "command": "open_file",
+				                "args": {
+				                    "file": "${packages}/User/VisualforcePreview.sublime-settings"
+				                }
+				            },
+				            { "caption": "-" }
+			            ]
+			        }
+		        ]
+		    }
+	    ]
+  }
+]
