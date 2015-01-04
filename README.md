@@ -24,3 +24,7 @@ Go to your Sublime Text "Packages" directory (`Preferences` / `Browse Packages..
 Then clone this GitHub repository:
 
     $ git clone https://github.com/Lanceshi2/VisualforcePreview.git "Visualforce Preview"
+
+## License ##
+
+Do whatever you want
