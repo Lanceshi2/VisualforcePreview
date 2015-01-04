@@ -1,6 +1,7 @@
 import sublime
 import sublime_plugin
 import webbrowser
+import os
 
 class VisualforcePreviewCommand(sublime_plugin.TextCommand):
     def run(self, edit, inputFile=None):
@@ -11,7 +12,7 @@ class VisualforcePreviewCommand(sublime_plugin.TextCommand):
         domain = settings.get("Domain")
 
         fullFileName = self.view.file_name()
-        fileNameList = fullFileName.split('\\');
+        fileNameList = os.path.split(fullFileName);
         VFFileName = fileNameList[-1]
         fileNameWithoutExt = (VFFileName.split('.'))[0]
 
